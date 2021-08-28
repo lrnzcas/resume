@@ -12,6 +12,12 @@ h1 {
   margin-bottom: 0;
   margin-top: 0;
   padding: 0;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.header {
+  font-weight: 200;
+  font-size: 60px;
 }
 
 .title {
@@ -127,11 +133,6 @@ th {
   width: 10%;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 li {
   font-family: 'Playfair Display', sans-serif;
 }
@@ -141,10 +142,16 @@ p {
   font-size: 20px;
 }
 
-i {
+.socials {
   font-size: 30px;
   padding: 50px;
   transition: 0.3s;
+}
+
+.ricon {
+  font-size: 50px;
+  margin: 0 0 5px 0;
+  float: left;
 }
 
 .instagram:hover {
@@ -167,6 +174,11 @@ i {
   color: #0e76a8;
 }
 
+.twitch:hover {
+  transition: 0.3s;
+  color: #be4bdb;
+}
+
 a {
   color: #1d1e22;
 }
@@ -174,7 +186,141 @@ a {
 #resume {
   background-color: black;
   margin: 0;
-  padding: 0 0 100px 0;
   height: 100%;
   width: 100%;
+  padding: 0 0 50px 0;
+}
+
+h5 {
+  font-family: 'Kaisei Tokumin', serif;
+  font-size: 25px;
+  color: white;
+  margin: 0;
+}
+
+.meter {
+  width: 700px;
+  height: 50px;
+  background-color: transparent;
+  margin-top: 4px;
+}
+
+.html5 {
+  width: 75%;
+  height: 100%;
+  background-color: #9acd32;
+  border-radius: 10px;
+  position: relative;
+  animation-name: html5;
+  animation-duration: 3s;
+}
+
+.css {
+  width: 60%;
+  height: 100%;
+  background-color: #bfff3e;
+  border-radius: 10px;
+  position: relative;
+  animation-name: css;
+  animation-duration: 3s;
+}
+
+.js {
+  width: 80%;
+  height: 100%;
+  background-color: #5e7f1c;
+  border-radius: 10px;
+  position: relative;
+  animation-name: js;
+  animation-duration: 3s;
+}
+
+.python {
+  width: 30%;
+  height: 100%;
+  background-color: #ffd200;
+  border-radius: 10px;
+  position: relative;
+  animation-name: python;
+  animation-duration: 3s;
+}
+
+@keyframes html5 {
+  from {
+    width: 0;
+    background-color: #fe6786;
+    border-radius: 0;
+  }
+  to {
+    width: 75%;
+    background-color: #9acd32;
+    border-radius: 10px;
+  }
+}
+
+@keyframes js {
+  from {
+    width: 0;
+    background-color: #fe6786;
+    border-radius: 0;
+  }
+  to {
+    width: 80%;
+    background-color: #5e7f1c;
+    border-radius: 10px;
+  }
+}
+
+@keyframes css {
+  from {
+    width: 0;
+    background-color: #fe6786;
+    border-radius: 0;
+  }
+
+  to {
+    width: 60%;
+    background-color: #bfff3e;
+    border-radius: 10px;
+  }
+}
+
+@keyframes python {
+  from {
+    width: 0;
+    background-color: #fe6786;
+    border-radius: 0;
+  }
+
+  to {
+    width: 30%;
+    background-color: #ffd200;
+    border-radius: 10px;
+  }
+}
+
+.steps {
+  background-image: linear-gradient(transparent 3%, red, yellow);
+  width: 5px;
+  height: 400px;
+}
+
+.edu {
+  width: 100px;
+  height: 450px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #1d1e22;
 }

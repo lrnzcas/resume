@@ -1,1 +1,3 @@
-console.log('hello!')
+resume = document.getElementById('resume');
+
+console.log(resume.offsetTop);
