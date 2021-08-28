@@ -4,6 +4,7 @@ html {
 
 body {
   background: black;
+  overflow: overlay;
 }
 
 h1 {
@@ -107,7 +108,7 @@ h2 {
 #aboutme {
   background-color: #f5f5d8;
   margin: 0;
-  padding: 0 0 100px 0;
+  padding: 0 4 100px 4;
   border-radius: 10px 10px 0 0;
   height: 100%;
   width: 100%;
@@ -186,10 +187,10 @@ a {
 
 #resume {
   background-color: black;
-  margin: 0;
+  margin: 0 0 0 -4;
   height: 100%;
   width: 100%;
-  padding: 0 0 50px 0;
+  padding: 0 0 50px 8;
 }
 
 h5 {
@@ -324,4 +325,24 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background-color: #1d1e22;
+}
+
+.statue {
+  position: absolute;
+  top: 100;
+  right: 90;
+}
+
+.computer {
+  position: absolute;
+  width: 200;
+  top: 686;
+  right: 450;
+}
+
+.skeleton {
+  position: absolute;
+  right: 100;
+  top: 2700;
+  width: 250;
 }
