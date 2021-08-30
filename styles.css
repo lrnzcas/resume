@@ -324,7 +324,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #1d1e22;
+  background-color: transparent;
 }
 
 .statue {
