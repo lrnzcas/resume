@@ -1,155 +1,630 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+  rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Trochut:ital,wght@0,400;0,700;1,400&family=Wire+One&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/hrf8rrj.css">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/237087d8b3.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" href="favicon16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="favicon32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon.png" >
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon.png" >
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png" >
 
 <head>
-  <meta charset="UTF-8">
-  <script src="script.js"></script>
-  <script src="https://kit.fontawesome.com/237087d8b3.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Lorenzo Castellano</title>
 </head>
 
+
 <body>
+  <div class="wrapper">
 
-  <div id="introcard">
-    <h1>hi i'm</h1>
-    <h1 id="title">LORENZO</h1>
-    <a href="#aboutme"><button class="custom-btn btn-14">about me</button></a>
-    <a href="#resume"><button class="custom-btn btn-14">résumé</button></a>
-    <img class="statue" src="https://www.pngkit.com/png/full/163-1635029_vaporwave-statue-transparent-png-vaporwave-statue-png.png" alt="">
-    <img class="computer" src="https://i.pinimg.com/originals/9d/9b/d1/9d9bd13afce1a798d22ecfd9897730ed.gif" alt="">
-  </div>
+    <div class="mobile">
 
-  <div id="aboutme">
-    <h1 class="title" style="color: #1D1E22">about me</h1>
-    <br>
-    <img class="pfp" src="238611248_1676719489191269_207273945365476185_n (1).jpg">
-    <h3 class="center" style="color: #1D1E22">(that's me)</h3>
-    <br>
+      <div id="cardOne">
 
-    <p class="center">I'm a self-taught programmer, web designer and certified rubbish dump hailing from Singapore.<br>
-    I've not had the chance to work on any personal projects as of now, but I just hope that I'll be able to accomplish something soon haha<br>
-  Feel free to contact me from the socials below!</p>
+        <div class="header center">
+          <h1 class="headerName headerFirstName">LORENZO</h1>
+          <h1 class="headerName headerSurname">CASTELLANO</h1>
+        </div>
 
-    <div class="icons center">
-      <a href="https://www.instagram.com/lrnz.cas/"
-        target="_blank"><i class="fab fa-instagram instagram socials"></i></a>
-      <i class="far fa-paper-plane telegram socials"></i>
-      <i class="far fa-envelope gmail socials"></i>
-      <a
-        href="https://www.linkedin.com/in/lorenzo-castellano-05264421b/"><i class="fab fa-linkedin linkedin socials"></i></a>
-      <a href="https://www.twitch.tv/pearly_whites"><i class="fab fa-twitch socials twitch"></i></a>
+        <div style="display: flex; justify-content: center;">
+          <!-- Greek Header Area -->
+          <img loading="lazy" class="gfh" alt="">
+          <img loading="lazy" class="centerImg gh" alt="">
+        </div>
+
+        <div class="buttons center">
+          <a href="#cardTwo"><button class="buttonStyle">about me</button></a><br>
+          <a href="#cardThree"><button class="buttonStyle">projects</button></a><br>
+          <a href="#cardFour"><button class="buttonStyle">résumé</button></a>
+        </div>
+
+        <i class="fas fa-angle-down center headerArrow"></i>
+
+      </div>
+
+      <div id="cardTwo">
+        <div class="cardTwoContents center">
+          <br>
+          <h1>about me</h1>
+          <br>
+          <img loading="lazy" class="pfp picture" alt="">
+          <br>
+          <br>
+          <div class="aboutmecontent">
+            <p>I'm a self-taught programmer, web designer and creative hailing from Singapore. <br>
+              I've worked on numerous projects and am setting my sights on founding my own company one day.<br><br>
+              Feel free to contact me through my socials below:
+            </p>
+
+            <a href="https://www.instagram.com/lrnz.cas/" target="_blank"><i
+                class="fab fa-instagram instagram socials"></i></a>
+
+            <a href="mailto: lrnzo.castellano@gmail.com"><i class="far fa-envelope gmail socials"></i></a>
+
+            <a href="https://www.linkedin.com/in/lorenzo-castellano-05264421b/" target="_blank"><i
+                class="fab fa-linkedin linkedin socials"></i></a>
+            <br>
+          </div>
+        </div>
+
+        <div class="pattern"></div>
+
+      </div>
+
+      <div id="cardThree">
+        <br>
+        <div class="cardThreeContents center">
+          <h1>projects</h1>
+          <h2>here are some projects i've worked on: </h2>
+          <br>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <br>
+              <img loading="lazy" class="logo centerImg vybe" alt="">
+              <img loading="lazy" class="wallp vybe-w centerImg" alt="">
+              <br>
+
+              <p class="centerImg text"><b>President</b><br><br>An all-in-one and hands-off social media marketing
+                solution for businesses, whilst
+                also providing other online design services.
+              </p>
+              <br>
+              <br>
+              <br>
+              <div class="centerImg cardThreeSocials">
+                <a href="https://vybe.sg" target="_blank"><i class="socials fas fa-globe-americas"></i></a>
+                <a href="mailto: info@vybe.sg" target="_blank"><i class="socials fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/vybe.sg/" target="_blank"><i class='icon socials'></i></a>
+              </div>
+
+            </div>
+            <div class="swiper-slide">
+              <img loading="lazy" class="logo centerImg mailmatic" alt="">
+              <img loading="lazy" class="wallp mm-w centerImg" alt="">
+              <br>
 
 
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+              <p class="centerImg text"><b>Head Designer</b><br><br>Reshaping email marketing with a one-stop solution
+                to
+                Email Marketing Automation
+                (EMA).
+              </p>
+              <br>
+              <br>
+              <div class="centerImg cardThreeSocials">
+                <a href="https://mailmatic.co" target="_blank"><i class="socials fas fa-globe-americas"></i></a>
+                <a href="mailto: support@mailmatic.co" target="_blank"><i class="socials fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/mailmatic.co/" target="_blank"><i
+                    class="fab fa-facebook socials"></i></a>
+                <a href="https://twitter.com/mailmaticco" target="_blank"><i class="fab fa-twitter socials"></i></a>
+                <a href="https://www.instagram.com/mailmatic.co/" target="_blank"><i class="icon socials"></i></a>
+              </div>
+            </div>
+          </div>
 
-    <div id="resume">
-      <h1 class="title" style="color: white">résumé</h1>
-      <br>
+        </div>
+      </div>
 
-      <table>
-        <tr>
-          <td>
-            <h1 class="header" style="width: 20%">Skills</h1>
+      <div id="cardFour">
+        <br>
+        <h1 class="center">résumé</h1>
+        <br>
+        <br>
+
+        <!-- Education -->
+        <div class="center resume">
+          <h1>education</h1>
+          <br>
+
+          <div class="school">
+            <img loading="lazy" class="picture" id="schoolPic" src="images/logo/school/tmps.png" alt="">
+            <h1 class="miniheader" id="schoolName">Temasek Primary School</h1>
+            <h2 id="schoolYears">2011 - 2016</h2>
+            <br>
+          </div>
+
+          <div style="position: relative">
+
+            <div class="radio" style="position: absolute;">
+              <input checked id="school1" type="radio" name="school" value="1" />
+              <input id="school2" type="radio" name="school" value="2" />
+              <input id="school3" type="radio" name="school" value="3" />
+            </div>
+
+            <div id="status"></div>
+            <div class="school-meter"></div>
+            <br>
+            <h2>Click the buttons!</h2>
+            <br>
             <br>
 
-            <div class="ricon">
-              <h5><i style="color: #FF6D00;" class="fab fa-html5"></i> HTML5
-                <span style="font-weight: 100; font-style: italic;">Self-taught</span>
-              </h5>
 
-              <div class="meter">
-                <div class="html5"></div>
-              </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- Computing -->
+        <div class="resume">
+          <h1 class="center">computing</h1>
+          <h2><i style="color: #FF6D00;" class="fab fa-html5"></i> HTML5
+            <span style="font-weight: 100; font-style: italic;">Self-taught</span>
+          </h2>
+
+          <div class="meter">
+            <div class="html5"></div>
+          </div>
+
+          <h2><i style="color: #2196F3" class="fab fa-css3-alt"></i> CSS
+            <span style="font-weight: 100; font-style: italic;">Self-taught</span>
+          </h2>
 
 
-
-              <h5><i style="color: #2196F3" class="fab fa-css3-alt"></i> CSS
-                <span style="font-weight: 100; font-style: italic;">Self-taught</span>
-              </h5>
-
-
-              <div class="meter">
-                <div class="css"></div>
-              </div>
+          <div class="meter">
+            <div class="css"></div>
+          </div>
 
 
-              <h5><i style="color: #F7E018"class="fab fa-js"></i> JavaScript
-                <span style="font-weight: 100; font-style: italic;">Self-taught</span>
-              </h5>
+          <h2><i style="color: #F7E018" class="fab fa-js"></i> JavaScript
+            <span style="font-weight: 100; font-style: italic;">Self-taught</span>
+          </h2>
 
-              <div class="meter">
-                <div class="js"></div>
-              </div>
+          <div class="meter">
+            <div class="js"></div>
+          </div>
 
-              <h5><i style="color: #FED74A" class="fab fa-python"></i></i> Python
-                <span style="font-weight: 100; font-style: italic;">Temasek Junior College</span>
-              </h5>
+          <h2><i style="color: #FED74A" class="fab fa-python"></i></i> Python
+            <span style="font-weight: 100; font-style: italic;">Temasek Junior College</span>
+          </h2>
 
-              <div class="meter">
-                <div class="python"></div>
-              </div>
-              <br>
-            </div>
-          </td>
+          <div class="meter">
+            <div class="python"></div>
+          </div>
+          <br>
 
-          <td>
-            <div>
-              <h1 class="header" style="width: 30%">Education</h1>
-              <div class="steps">
-                <h2 style="margin-left: 20px; width: 100px; margin-bottom: 0;">Temasek Primary School<br>
-                  <span style="color: #CCCCCC; font-size: 15px; font-family: 'Kaisei Tokumin', serif;">2011-2016</span>
-                </h2>
-                <br>
-                <h2 style="margin-left: 20px; width: 100px; margin-bottom: 0;">Temasek Secondary
-                  School<br><span style="color: #CCCCCC; font-size: 15px; font-family: 'Kaisei Tokumin', serif;">2017-2020</span>
-                </h2>
+          <h2 style="color: #969071">Other:</h2>
 
-                <h2 style="margin-left: 20px; width: 100px; margin-bottom: 0;">Temasek Junior College<br>
-                  <span style="color: #CCCCCC; font-size: 15px; font-family: 'Kaisei Tokumin', serif;">2021-</span>
-                </h2>
-              </div>
-              <br>
-              <br>
-            </div>
-          </td>
-        </tr>
-      </table>
+          <ul>
+            <li>Certification in Mobile Media and Entertainment Production</li><br>
+            <li>Participated in BuildingBlocs, Cyberthon</li>
+          </ul>
+
+          <br>
+          <br>
+
+        </div>
+
+        <!-- Music -->
+        <div class="resume center">
+          <br>
+          <h1>music</h1>
+          <br>
+          <img loading="lazy" class="picture" src="./images/logo/school/abrsm.png" alt="">
+          <br>
+          <br>
+          <h1 class="miniheader">Certifications</h1>
+          <br>
+          <h2>Grade 5 Music Theory</h2>
+          <h2>Grade 6 Practical Guitar</h2>
+          <h2>Advanced Choral Singing Distinction</h2>
+        </div>
+
+
+      </div>
+
       <br>
 
-      <h1 class="header" style="width: 30%">Other</h1>
-      <ul style="color: white;">
-        <li>Grade 5 Music Theory</li>
-        <li>Grade 6 Practical Guitar</li>
-        <li>Advanced Choral Singing Distinction</li>
-        <li>Certification in Mobile Media and Entertainment Production </li>
-        <li>Twitch Streamer</li>
-
-      </ul>
+      <p class="final center">Made with love from Singapore</p>
     </div>
 
+    <div class="display">
+      <div id="cardOne">
+
+        <div class="cardOneContent">
+          <div style="display: flex; justify-content: center;">
+            <!-- Greek Header Area -->
+            <img loading="lazy" class="gfh" alt="">
+            <img loading="lazy" class="gh" alt="">
+          </div>
+
+          <div class="header">
+            <h1 class="headerName">LORENZO</h1>
+            <h1 class="headerName headerSurname">CASTELLANO</h1>
+            <div class="buttons">
+              <a href="#about-me"><button class="buttonStyle">about me</button></a>
+              <a href="#projects"><button class="buttonStyle">projects</button></a>
+              <a href="#résumé"><button class="buttonStyle">résumé</button></a>
+            </div>
+
+          </div>
+
+          <i class="fas fa-angle-down center headerArrow"></i>
+
+        </div>
+      </div>
+
+      <div id="about-me">
+        <div class="center" style="position: absolute; z-index: 99; background: transparent;">
+          <br>
+          <h1>about me</h1>
+          <br>
+        </div>
+        <div class="contents cardTwoContents">
+          <div style="display: flex; justify-content: center;">
+            <img loading="lazy" class="pfp picture" alt="">
+          </div>
+
+          <div class="aboutmecontent center">
+            <p>I'm a self-taught programmer, web designer and creative hailing from Singapore. <br>
+              I've worked on numerous projects and am setting my sights on founding my own company one day.<br>
+            </p>
+
+            <div class="centerImg socials">
+              <a href="https://www.instagram.com/lrnz.cas/" target="_blank"><i
+                  class="fab fa-instagram instagram socials"></i></a>
+
+              <a href="mailto: lrnzo.castellano@gmail.com"><i class="far fa-envelope gmail socials"></i></a>
+
+              <a href="https://www.linkedin.com/in/lorenzo-castellano-05264421b/" target="_blank"><i
+                  class="fab fa-linkedin linkedin socials"></i></a>
+              <br>
+            </div>
+          </div>
+
+        </div>
+        <div class="pattern"></div>
+      </div>
+
+      <div id="projects">
+        <div class="contents projects">
+          <div class="headerText center" style="position: absolute; z-index: 99; background: transparent;">
+            <br>
+            <h1>projects</h1>
+            <h2 style="width: 50vmin; padding: 0; margin-top: 0 !important" class="centerImg">here are some projects
+              i've worked on: </h2>
+            <br>
+          </div>
 
 
+          <div class="card vybe-c">
+            <img loading="lazy" class="logo centerImg vybe" alt="">
+            <img loading="lazy" class="wallp vybe-w centerImg" alt="">
+            <div class="minicard-content centerImg">
+              <p class=""><b>President</b><br><br>An all-in-one and hands-off social media marketing
+                solution for businesses, whilst
+                also providing other online design services.
+              </p>
+              <br>
+              <br>
+            </div>
+
+            <div class="centerImg cardThreeSocials">
+              <a href="https://vybe.sg" target="_blank"><i class="socials fas fa-globe-americas"></i></a>
+              <a href="mailto: info@vybe.sg" target="_blank"><i class="socials fas fa-envelope"></i></a>
+              <a href="https://www.instagram.com/vybe.sg/" target="_blank"><i class='icon socials'></i></a>
+            </div>
+
+          </div>
+
+          <div class="card mailmatic-c">
+            <img loading="lazy" class="logo centerImg mailmatic" alt="">
+            <img loading="lazy" class="wallp mm-w centerImg" alt="">
+            <div class="minicard-content centerImg">
+              <p class=""><b>Head Designer</b><br><br><br>Reshaping email marketing with a one-stop solution
+                to
+                Email Marketing Automation
+                (EMA).
+              </p>
+              <br>
+              <br>
+            </div>
+
+            <div class="cardThreeSocials centerImg">
+              <a href="https://mailmatic.co" target="_blank" class="socials fas fa-globe-americas"></a>
+              <a href="mailto: support@mailmatic.co" target="_blank" class="socials fas fa-envelope"></a>
+              <a href="https://www.facebook.com/mailmatic.co/" target="_blank" class="fab fa-facebook socials"></a>
+              <a href="https://twitter.com/mailmaticco" target="_blank" class="fab fa-twitter socials"></a>
+              <a href="https://www.instagram.com/mailmatic.co/" target="_blank"><i class="icon socials"></i></a>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="résumé">
+        <div class="center" style="position: absolute; z-index: 99; background: transparent;">
+          <br>
+          <h1>résumé</h1>
+          <h2 style="font-size: 3vmin !important; width: 50vmin; padding: 0; margin-top: 0 !important" class="centerImg">a short summary</h2>
+          <br>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div id="résumé-contents">
+          <div class="computing">
+            <h2 class="center" style="margin: 0 auto; text-decoration: underline;">computing</h2>
+
+            <div>
+              <table class="meters">
+                <tr>
+                  <td>
+                    <h3><i style="color: #FF6D00;" class="fab fa-html5 icons"></i> HTML5
+                      <br><span style="font-weight: 100; font-style: italic;">Self-taught</span>
+                    </h3>
+
+                    <div class="meterd">
+                      <div class="html5d"></div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <h3><i style="color: #2196F3" class="fab fa-css3-alt icons"></i> CSS
+                      <br><span style="font-weight: 100; font-style: italic;">Self-taught</span>
+                    </h3>
+
+
+                    <div class="meterd">
+                      <div class="cssd"></div>
+                    </div>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>
+                    <h3><i style="color: #F7E018" class="fab fa-js icons"></i> JavaScript
+                      <br><span style="font-weight: 100; font-style: italic;">Self-taught</span>
+                    </h3>
+
+                    <div class="meterd">
+                      <div class="jsd"></div>
+                    </div>
+                  </td>
+
+                  <td>
+                    <h3><i style="color: #FED74A" class="fab fa-python icons"></i></i> Python
+                      <br><span style="font-weight: 100; font-style: italic;">Temasek JC</span>
+                    </h3>
+
+                    <div class="meterd">
+                      <div class="pythond"></div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="others centerImg">
+              <h3 style="color: #969071">Other:</h3>
+
+              <ul class="lAlign">
+                <li>Certification in Mobile Media and Entertainment Production</li>
+                <li>Participated in BuildingBlocs, Cyberthon</li>
+              </ul>
+              <br>
+            </div>
+
+          </div>
+
+          <div class="resume-other">
+            <div>
+              <div class="education rAlign">
+                <h2 style="margin: 0; position: absolute; right: 2vmin;">education</h2>
+
+                <img loading="lazy" id="schoolPicD" src="images/logo/school/tmps.png" alt="">
+
+                <div class="school">
+                  <div class="radio" style="position: absolute; top: 0vmin">
+                    <input checked id="school1D" type="radio" name="school" value="1" />
+                    <input id="school2D" type="radio" name="school" value="2" />
+                    <input id="school3D" type="radio" name="school" value="3" />
+                  </div>
+                  <div id="statusD"></div>
+                  <br><br>
+                  <div class="dates">
+                    <h2 class="miniheader" id="schoolNameD">Temasek Primary School</h2>
+                    <h3 id="schoolYearsD">2011 - 2016</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="music">
+              <h2 style="margin: 0; position: absolute; left: 2vmin">music</h2>
+              <img loading="lazy" id="abrsm" src="./images/logo/school/abrsm.png" alt="">
+
+              <div class="music-grades">
+                <h3>Certifications</h3>
+                <ul>
+                  <li>Grade 5 Music Theory</li>
+                  <li>Grade 6 Practical Guitar</li>
+                  <li>Advanced Choral Singing Distinction</li>
+                </ul>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <!-- <table>
+          <tr>
+            <td class="rAlign">
+              <div class="education">
+                <h2>education</h2>
+
+                <img loading="lazy" id="schoolPicD" src="images/logo/school/tmps.png" alt="">
+
+                <div class="school">
+                  <div class="radio" style="position: absolute; top: 0vmin">
+                    <input checked id="school1D" type="radio" name="school" value="1" />
+                    <input id="school2D" type="radio" name="school" value="2" />
+                    <input id="school3D" type="radio" name="school" value="3" />
+                  </div>
+                  <div id="statusD"></div>
+                  <br><br><br>
+                  <div class="dates">
+                    <h2 class="miniheader" id="schoolNameD">Temasek Primary School</h2>
+                    <h3 id="schoolYearsD">2011 - 2016</h3>
+                  </div>
+                </div>
+
+              </div>
+            </td>
+          </tr>
+
+        </table> -->
+
+        <!-- <div class="music">
+          <br>
+          <h2>music</h2>
+          <br>
+          <img loading="lazy" id="abrsm" src="./images/logo/school/abrsm.png" alt="">
+
+          <div class="music-grades">
+            <h2 class="miniheader">Certifications</h2>
+            <ul>
+              <li>Grade 5 Music Theory</li><br>
+              <li>Grade 6 Practical Guitar</li><br>
+              <li>Advanced Choral Singing Distinction</li>
+            </ul>
+          </div>
+
+        </div> -->
+
+        <div class="final center">
+          <p>Made with love from Singapore</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 
   </div>
 
-  <div>
-  </div>
-
-  <img class="skeleton" src="https://i.imgur.com/eddvXBo.gif" alt="">
 </body>
 
 </html>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+
+    autoplay: {
+      delay: 3000
+    },
+
+    // Navigation arrows
+
+  });
+
+  document.addEventListener('click', statusBar);
+  statusBarElem = document.getElementById('status')
+  statusBarElemD = document.getElementById('statusD')
+  schoolImg = document.getElementById('schoolPic')
+  schoolImgD = document.getElementById('schoolPicD')
+  schoolName = document.getElementById('schoolName')
+  schoolNameD = document.getElementById('schoolNameD')
+  schoolYears = document.getElementById('schoolYears')
+  schoolYearsD = document.getElementById('schoolYearsD')
+
+  function statusBar(e) {
+    if (document.getElementById('school1').checked) {
+      statusBarElem.style.width = '4%';
+      schoolPic.src = "./images/logo/school/tmps.png";
+      schoolName.innerHTML = "Temasek Primary School";
+      schoolYears.innerHTML = "2011 - 2016"
+
+    } else if (document.getElementById('school2').checked) {
+      statusBarElem.style.width = '39%';
+      schoolPic.src = "./images/logo/school/tms.png";
+      schoolName.innerHTML = "Temasek Secondary School";
+      schoolYears.innerHTML = "2017 - 2020"
+
+    } else if (document.getElementById('school3').checked) {
+      statusBarElem.style.width = '79%';
+      schoolPic.src = "./images/logo/school/tjc.png";
+      schoolName.innerHTML = "Temasek Junior College";
+      schoolYears.innerHTL = "2021 - 2022"
+
+    }
+
+    if (document.getElementById('school1D').checked) {
+      statusBarElemD.style.width = '0';
+      schoolPicD.src = "./images/logo/school/tmps.png";
+      schoolNameD.innerHTML = "Temasek Primary School";
+      schoolYearsD.innerHTML = "2011 - 2016"
+
+    } else if (document.getElementById('school2D').checked) {
+      statusBarElemD.style.width = '12vmin';
+      schoolPicD.src = "./images/logo/school/tms.png";
+      schoolNameD.innerHTML = "Temasek Secondary School";
+      schoolYearsD.innerHTML = "2017 - 2020"
+
+    } else if (document.getElementById('school3D').checked) {
+      statusBarElemD.style.width = '22vmin';
+      schoolPicD.src = "./images/logo/school/tjc.png";
+      schoolNameD.innerHTML = "Temasek Junior College";
+      schoolYearsD.innerHTML = "2021 - 2022"
+    }
+
+  }
+</script>

@@ -1,14 +1,19 @@
 window.addEventListener('scroll', scrollFunc, true);
 
 resume = document.getElementById('resume');
+height = window.innerHeight;
 
 function scrollFunc(e) {
-  if (window.scrollY > 1100) {
+  if (window.scrollY > 2.4 * height) {
     document.head.appendChild(styleSheet);
   }
 }
 
 var styles = `
+
+.meter{
+    display: block !important;
+}
     @keyframes html5 {
   from {
     width: 0;
@@ -18,7 +23,7 @@ var styles = `
   to {
     width: 75%;
     background-color: #9acd32;
-    border-radius: 10px;
+    border-radius: 2vmin;
   }
 }
 
@@ -31,7 +36,7 @@ var styles = `
   to {
     width: 80%;
     background-color: #5e7f1c;
-    border-radius: 10px;
+    border-radius: 2vmin;
   }
 }
 
@@ -45,7 +50,7 @@ var styles = `
   to {
     width: 60%;
     background-color: #bfff3e;
-    border-radius: 10px;
+    border-radius: 2vmin;
   }
 }
 
@@ -59,9 +64,68 @@ var styles = `
   to {
     width: 30%;
     background-color: #ffd200;
-    border-radius: 10px;
+    border-radius: 2vmin;
   }
 }
+
+.meterd{
+  display: block !important;
+}
+
+@keyframes html5d {
+from {
+  width: 0;
+  background-color: #fe6786;
+  border-radius: 0;
+}
+to {
+  width: 15vmax;
+  background-color: #9acd32;
+  border-radius: 1vmin;
+}
+}
+
+@keyframes jsd {
+from {
+  width: 0;
+  background-color: #fe6786;
+  border-radius: 0;
+}
+to {
+  width: 20vmax;
+  background-color: #5e7f1c;
+  border-radius: 1vmin;
+}
+}
+
+@keyframes cssd {
+from {
+  width: 0;
+  background-color: #fe6786;
+  border-radius: 0;
+}
+
+to {
+  width: 15vmax;
+  background-color: #bfff3e;
+  border-radius: 1vmin;
+}
+}
+
+@keyframes pythond {
+from {
+  width: 0;
+  background-color: #fe6786;
+  border-radius: 0;
+}
+
+to {
+  width: 10vmax;
+  background-color: #ffd200;
+  border-radius: 1vmin;
+}
+}
+
 `;
 
 var styleSheet = document.createElement('style');
