@@ -838,7 +838,7 @@ body::-webkit-scrollbar {
     width: 50vmax !important;
     font-size: 2vmin;
     margin: 0 auto;
-    left: 6vma;
+    left: 6vw;
     right: 0;
     margin-left: auto;
     margin-right: auto;
