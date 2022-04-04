@@ -789,7 +789,7 @@ body::-webkit-scrollbar {
   .html5d {
     position: absolute;
     top: 11vmin;
-    width: 15vmax;
+    width: 15vw;
     height: 2vmax;
     background-color: #9acd32;
     border-radius: 1vmin !important;
@@ -800,7 +800,7 @@ body::-webkit-scrollbar {
   .cssd {
     position: absolute;
     top: 11vmin;
-    width: 15vmax;
+    width: 15vw;
     height: 2vmax;
     background-color: #bfff3e;
     border-radius: 1vmin !important;
@@ -811,7 +811,7 @@ body::-webkit-scrollbar {
   .jsd {
     position: absolute;
     top: 0vmin;
-    width: 20vmax;
+    width: 20vw;
     height: 100%;
     background-color: #5e7f1c;
     border-radius: 1vmin;
@@ -823,7 +823,7 @@ body::-webkit-scrollbar {
   .pythond {
     position: absolute;
     top: 0vmin;
-    width: 10vmax;
+    width: 10vw;
     height: 100%;
     background-color: #ffd200;
     border-radius: 1vmin;
@@ -838,7 +838,7 @@ body::-webkit-scrollbar {
     width: 50vmax !important;
     font-size: 2vmin;
     margin: 0 auto;
-    left: 6vmax;
+    left: 6vma;
     right: 0;
     margin-left: auto;
     margin-right: auto;
