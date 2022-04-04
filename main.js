@@ -79,7 +79,7 @@ from {
   border-radius: 0;
 }
 to {
-  width: 15vmax;
+  width: 15vw;
   background-color: #9acd32;
   border-radius: 1vmin;
 }
@@ -92,7 +92,7 @@ from {
   border-radius: 0;
 }
 to {
-  width: 20vmax;
+  width: 20vw;
   background-color: #5e7f1c;
   border-radius: 1vmin;
 }
@@ -106,7 +106,7 @@ from {
 }
 
 to {
-  width: 15vmax;
+  width: 15vw;
   background-color: #bfff3e;
   border-radius: 1vmin;
 }
@@ -120,7 +120,7 @@ from {
 }
 
 to {
-  width: 10vmax;
+  width: 10vma;
   background-color: #ffd200;
   border-radius: 1vmin;
 }
