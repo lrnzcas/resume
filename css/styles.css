@@ -968,7 +968,7 @@ body::-webkit-scrollbar {
 }
 
 .pfp {
-  content: url('../images/pfp.jpg');
+  content: url('../images/portrait.png');
 }
 
 .cardTwoContents p {
