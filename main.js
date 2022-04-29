@@ -1,4 +1,3 @@
-ScreenOrientation.lock('portrait-primary');
 window.addEventListener('scroll', scrollFunc, true);
 
 resume = document.getElementById('resume');
