@@ -968,7 +968,7 @@ body::-webkit-scrollbar {
 }
 
 .pfp {
-  content: url('../images/profile.pg');
+  content: url('../images/profile.png');
 }
 
 .cardTwoContents p {
