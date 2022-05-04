@@ -28,6 +28,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+
 .mobile {
   display: none;
 }
@@ -35,6 +36,7 @@ body::-webkit-scrollbar {
 .display {
   display: block;
 }
+
 
 @font-face {
   font-family: 'High Cruiser';
@@ -51,6 +53,7 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 499px) {
+
   .mobile {
     display: block;
   }
@@ -97,6 +100,7 @@ body::-webkit-scrollbar {
     font-weight: 800;
   }
 
+
   .header {
     top: 6vmin;
   }
@@ -104,7 +108,7 @@ body::-webkit-scrollbar {
   .headerArrow {
     position: absolute;
     font-size: 9vmin;
-    animation: opacity 4s, arrowDown 2s infinite;
+    animation: opacity 4.5s, arrowDown 2s infinite;
     color: #969071;
   }
 
@@ -114,7 +118,7 @@ body::-webkit-scrollbar {
     padding: 1vh 6vw;
     color: white;
     border-radius: 2vmin;
-    background-color: #7f2122;
+    background-color: #7F2122;
     font-family: 'Space Mono', monospace;
     font-weight: 700;
     margin: 1%;
@@ -124,7 +128,7 @@ body::-webkit-scrollbar {
   .buttons {
     position: absolute;
     top: 67vh;
-    animation: opacity 4s;
+    animation: opacity 4.5s;
   }
 
   .meter {
@@ -139,8 +143,8 @@ body::-webkit-scrollbar {
 
   .gfh {
     position: absolute;
-    animation: frameRotate 40s infinite linear, opacity 4s;
-    content: url('../images/greek-frame.png');
+    animation: frameRotate 40s infinite linear, opacity 4.5s;
+    content: url("../images/greek-frame.png");
     max-width: 60%;
     max-height: 30%;
     height: auto;
@@ -150,8 +154,8 @@ body::-webkit-scrollbar {
 
   .gh {
     position: absolute;
-    animation: gh 2s;
-    content: url('./images/heads/head5.png');
+    animation: gh 2.5s;
+    content: url("./images/heads/head5.png");
     max-width: 60%;
     max-height: 40%;
     top: 24vh;
@@ -163,40 +167,43 @@ body::-webkit-scrollbar {
       max-width: 0;
       max-height: 0;
       top: 35vh;
-      content: url('../images/heads/head1.png');
+    }
+    
+    10% {
+      content: url("../images/heads/head1.png")
     }
 
     15% {
-      content: url('./images/heads/head2.png');
+      content: url("./images/heads/head2.png")
     }
 
     20% {
-      content: url('./images/heads/head3.png');
+      content: url("./images/heads/head3.png")
     }
 
     75% {
-      content: url('./images/heads/head4.png');
+      content: url("./images/heads/head4.png")
     }
 
     to {
       max-width: 60%;
       max-height: 40%;
       top: 24vh;
-      content: url('./images/heads/head5.png');
+      content: url("./images/heads/head5.png")
     }
   }
 
   @keyframes arrowDown {
     from {
-      top: 90vh;
+      top: 90vh
     }
 
     50% {
-      top: 91vh;
+      top: 91vh
     }
 
     to {
-      top: 90vh;
+      top: 90vh
     }
   }
 
@@ -211,12 +218,12 @@ body::-webkit-scrollbar {
     height: 220vmin;
     width: 100%;
     position: relative;
-    background-color: #7f2122;
+    background-color: #7F2122;
   }
 
   #cardTwo h1 {
     font-weight: 700;
-    color: #e5dbb7;
+    color: #E5DBB7;
     font-family: 'Space Mono', monospace;
   }
 
@@ -256,12 +263,15 @@ body::-webkit-scrollbar {
     box-shadow: rgba(0, 0, 0, 0.49) 0px 7px 29px 0px;
   }
 
+
+
   .cardTwoContents {
     position: absolute;
     top: 0;
     height: 100vh;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
     z-index: 99;
+    
   }
 
   #cardThree {
@@ -271,30 +281,31 @@ body::-webkit-scrollbar {
     width: 100vw;
     height: 230vmin;
     position: relative;
-    background-color: #e5dbb7;
+    background-color: #E5DBB7;
   }
 
   #cardThree h1 {
     color: #604c4c;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
 
   #cardThree h2 {
     color: #604c4c;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
 
   #cardThree p {
     color: #2c2323;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
+
 }
 
 @media screen and (min-width: 500px) {
   .gfh {
     position: absolute;
-    animation: frameRotate 40s infinite linear, opacity 4s;
-    content: url('../images/greek-frame.png');
+    animation: frameRotate 40s infinite linear, opacity 4.5s;
+    content: url("../images/greek-frame.png");
     max-width: 80%;
     max-height: 70%;
     height: auto;
@@ -305,8 +316,8 @@ body::-webkit-scrollbar {
 
   .gh {
     position: absolute;
-    animation: gh 2s;
-    content: url('./images/heads/head5.png');
+    animation: gh 2.5s;
+    content: url("./images/heads/head5.png");
     max-width: 90%;
     max-height: 90%;
     top: 2vmin;
@@ -326,30 +337,34 @@ body::-webkit-scrollbar {
     margin: auto;
   }
 
+
   @keyframes gh {
     from {
       right: 15vmin;
       height: 0;
       top: 20vmin;
-      content: url('../images/heads/head1.png');
+    }
+
+    10% {
+      content: url("../images/heads/head1.png")
     }
 
     15% {
-      content: url('./images/heads/head2.png');
+      content: url("./images/heads/head2.png")
     }
 
     20% {
-      content: url('./images/heads/head3.png');
+      content: url("./images/heads/head3.png")
     }
 
     75% {
-      content: url('./images/heads/head4.png');
+      content: url("./images/heads/head4.png")
     }
 
     to {
       height: 90%;
       top: 2vmin;
-      content: url('./images/heads/head5.png');
+      content: url("./images/heads/head5.png")
     }
   }
 
@@ -387,7 +402,7 @@ body::-webkit-scrollbar {
     display: inline-block;
     outline: none;
     z-index: 1;
-    background-color: #7f2122;
+    background-color: #7F2122;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.411) 0px 7px 29px 0px;
   }
@@ -399,34 +414,34 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: space-between;
     width: 30.8vmin;
-    animation: opacity 4s;
+    animation: opacity 4.5s;
   }
 
   .headerArrow {
     position: absolute;
     font-size: 5vmin;
     top: 0;
-    animation: opacity 4s, arrowDown 2s infinite;
+    animation: opacity 4.5s, arrowDown 2s infinite;
     color: #969071;
   }
 
   @keyframes arrowDown {
     from {
-      top: 59vh;
+      top: 59vh
     }
 
     50% {
-      top: 60vh;
+      top: 60vh
     }
 
     to {
-      top: 59vh;
+      top: 59vh
     }
   }
 
   .buttonStyle:after {
     position: absolute;
-    content: '';
+    content: "";
     width: 104%;
     height: 0;
     bottom: 0px;
@@ -457,12 +472,13 @@ body::-webkit-scrollbar {
     height: 100vh;
     width: 100%;
     position: relative;
-    background-color: #7f2122;
+    background-color: #7F2122;
   }
+
 
   #about-me h1 {
     font-weight: 700;
-    color: #e5dbb7;
+    color: #E5DBB7;
     font-family: 'Space Mono', monospace;
   }
 
@@ -500,6 +516,7 @@ body::-webkit-scrollbar {
     top: 10vmin;
     right: 0vw;
     box-shadow: rgba(0, 0, 0, 0.411) 0px 7px 29px 0px;
+
   }
 
   .picture {
@@ -561,22 +578,22 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 110vh;
     position: relative;
-    background-color: #e5dbb7;
+    background-color: #E5DBB7;
   }
 
   #projects h1 {
     color: #604c4c;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
 
   #projects h2 {
     color: #604c4c;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
 
   #projects p {
     color: #2c2323;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
 
   #projects .socials:hover {
@@ -638,6 +655,7 @@ body::-webkit-scrollbar {
     position: absolute !important;
     left: 0vmin;
     width: 100%;
+
   }
 
   #résumé {
@@ -652,18 +670,18 @@ body::-webkit-scrollbar {
 
   #résumé h1 {
     color: #969071;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
 
   #résumé h2 {
     color: #969071;
     font-size: 6vmin;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
 
   #résumé h3 {
     color: #969071;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;
   }
 
   .résumé {
@@ -694,7 +712,7 @@ body::-webkit-scrollbar {
   .school {
     position: absolute;
     top: 41vmin;
-    right: 2vmin;
+    right: 2vmin
   }
 
   #school1D {
@@ -720,6 +738,7 @@ body::-webkit-scrollbar {
     top: 0.65vmin;
     right: 0.2vmin;
   }
+
 
   .rAlign {
     text-align: right;
@@ -880,6 +899,7 @@ body::-webkit-scrollbar {
   .resume-other {
     position: relative;
     width: 100%;
+    
   }
 
   .music-grades {
@@ -898,7 +918,10 @@ body::-webkit-scrollbar {
   .icons {
     font-size: 2.4vmin;
   }
+
+
 }
+
 
 .center {
   text-align: center;
@@ -914,6 +937,7 @@ body::-webkit-scrollbar {
   right: 0;
 }
 
+
 /* Card One Contents */
 
 #cardOne {
@@ -923,8 +947,10 @@ body::-webkit-scrollbar {
   height: 100vh;
   width: 100%;
   position: relative;
-  background-color: #fff5e6;
+  background-color: #FFF5E6;
+
 }
+
 
 @keyframes frameRotate {
   from {
@@ -938,21 +964,21 @@ body::-webkit-scrollbar {
 
 @keyframes opacity {
   from {
-    opacity: 0;
+    opacity: 0
   }
 
   50% {
-    opacity: 0;
+    opacity: 0
   }
 
   to {
-    opacity: 100%;
+    opacity: 100%
   }
 }
 
 .headerName {
   margin: 0;
-  animation: opacity 4s;
+  animation: opacity 4.5s;
 }
 
 .header {
@@ -964,16 +990,16 @@ body::-webkit-scrollbar {
 /*  ------ */
 /* Card Two Contents */
 .cardTwoContents .socials {
-  color: #e5dbb7;
+  color: #E5DBB7;
 }
 
 .pfp {
-  content: url('../images/profile.png');
+  content: url('../images/pfp.jpg');
 }
 
 .cardTwoContents p {
   font-weight: 400;
-  color: #e5dbb7;
+  color: #E5DBB7;
 }
 
 .instagram {
@@ -1019,6 +1045,7 @@ body::-webkit-scrollbar {
   box-shadow: rgba(0, 0, 0, 0.122) 0px 7px 29px 0px;
 }
 
+
 .wallp {
   max-width: 90%;
   max-height: 60%;
@@ -1046,11 +1073,11 @@ body::-webkit-scrollbar {
 }
 
 .vybe-w {
-  content: url('../images/logo/vybe-wallpaper.png');
+  content: url('../images/logo/vybe-wallpaper.png')
 }
 
 .mm-w {
-  content: url('../images/logo/mailmatic-wallpaper.png');
+  content: url('../images/logo/mailmatic-wallpaper.png')
 }
 
 #cardThree .socials {
@@ -1073,17 +1100,17 @@ body::-webkit-scrollbar {
 
 #cardFour h1 {
   color: #969071;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 
 #cardFour h2 {
   color: #604c4c;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 
 #cardFour p {
   color: #2c2323;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 
 .meter {
@@ -1108,12 +1135,12 @@ body::-webkit-scrollbar {
   height: 7px;
   position: absolute;
   top: 5px;
-  left: 10%;
+  left: 10%
 }
 
 .resume {
   padding: 0 5vw;
-  width: 90%;
+  width: 90%
 }
 
 .html5 {
@@ -1163,6 +1190,7 @@ li {
   font-size: 5vmin;
 }
 
+
 #school1 {
   position: absolute;
   left: 13%;
@@ -1182,10 +1210,10 @@ li {
   z-index: 99;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%
 }
 
-input[type='radio'] {
+input[type="radio"] {
   appearance: none;
   background-color: #2c2323;
   margin: 0;
@@ -1200,8 +1228,8 @@ input[type='radio'] {
   place-content: center;
 }
 
-input[type='radio']::before {
-  content: '';
+input[type="radio"]::before {
+  content: "";
   width: 1.15em;
   height: 1.15em;
   border-radius: 100%;
@@ -1210,12 +1238,12 @@ input[type='radio']::before {
   box-shadow: inset 1em 1em #969071;
 }
 
-input[type='radio']:checked::before {
+input[type="radio"]:checked::before {
   transform: scale(1);
 }
 
 .icon {
-  content: url('../images/icons/instagram.svg');
+  content: url("../images/icons/instagram.svg");
   aspect-ratio: 1/1;
   margin: 0;
   z-index: 99;
